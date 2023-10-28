@@ -1,0 +1,35 @@
+.item {
+  width: 250px;
+
+  padding: 10px 100px 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  border-radius: 5px;
+}
+
+.statusTrue {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
+  margin-right: 8px;
+}
+
+.statusFalse {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 8px;
+}
+
+.avatar {
+  margin-right: 8px;
+}
+
+.name {
+}

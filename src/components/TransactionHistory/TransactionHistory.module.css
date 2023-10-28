@@ -1,0 +1,37 @@
+.transactionHistory {
+  width: 100%;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-collapse: collapse;
+}
+
+.transactionHistory th {
+  padding: 20px 40px;
+  background-color: skyblue;
+  border-right: 1px solid rgb(219, 219, 219);
+}
+
+.transactionHistory th:last-child {
+  border: 0;
+}
+
+.transactionHistory tr {
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.transactionHistory tr:nth-child(even) {
+  padding: 20px 40px;
+  background-color: rgb(219, 219, 219);
+}
+
+.transactionHistory td {
+  padding: 20px 40px;
+  border-right: 1px solid rgb(204, 204, 204);
+
+  text-align: center;
+}
+
+.transactionHistory td:last-child {
+  border: 0;
+}
